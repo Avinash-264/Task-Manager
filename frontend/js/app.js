@@ -9,7 +9,7 @@ const taskList = document.getElementById('task-list');
 const logoutBtn = document.getElementById('logout');
 let isRegister = true;
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://task-manager-n4lt.onrender.com';
 
 if (localStorage.getItem('token')) {
   showTaskManager();
