@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light gray background */
+  font-size: 14px; /* Decreased from 16px to 14px */
+}
+
+h2 {
+  text-align: center;
+  color: #333; /* Darker heading color */
+  font-size: 20px; /* Decreased from default (around 24px) to 20px */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Slightly reduced from 15px */
+  margin-bottom: 15px; /* Reduced from 20px */
+  background-color: white;
+  padding: 15px; /* Reduced from 20px */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+  padding: 10px; /* Reduced from 12px */
+  font-size: 14px; /* Decreased from 16px */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #28a745; /* Green button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ddd;
+  padding: 12px; /* Reduced from 15px */
+  margin-bottom: 8px; /* Reduced from 10px */
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.3s;
+}
+
+li:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-actions button {
+  margin-left: 8px; /* Reduced from 10px */
+  background-color: #dc3545; /* Red for delete/edit buttons */
+  padding: 6px 10px; /* Reduced from 8px 12px */
+  font-size: 12px; /* Decreased from 16px */
+}
+
+.task-actions button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
